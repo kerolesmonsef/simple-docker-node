@@ -7,6 +7,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   // read file called file.txt and res.send file content
+  console.log ("hello world");
   // const fileContent = fs.readFileSync('file.txt', 'utf-8');
   res.send("hello world");
 });
